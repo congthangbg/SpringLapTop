@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\13102\Desktop\qllaptop\laptop-backend\.metadata\.plugins\org.eclipse.jdt.core
+685419301.index
+4042828901.index

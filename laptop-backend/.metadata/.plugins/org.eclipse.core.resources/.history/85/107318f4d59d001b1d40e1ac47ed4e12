@@ -1,0 +1,27 @@
+package com.laptop.ict.models;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Bills")
+public class Bills {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer billid;
+	
+	@Column(name = "SupplierID")
+	private Integer supplierid;
+	
+	@Column(name = "StaffID")
+	private Integer staffid;
+	
+	@Column(name = "Date")
+	private Integer date;
+
+}

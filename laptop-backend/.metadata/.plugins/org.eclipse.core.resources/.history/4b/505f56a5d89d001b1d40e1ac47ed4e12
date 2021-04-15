@@ -1,0 +1,27 @@
+package com.laptop.ict.models;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Suppliers")
+public class Suppliers {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer supplierId;
+	
+	@Column(name = "SupplierName")
+	private String supplierName;
+	
+	@Column(name = "Address")
+	private String address;
+	
+	@Column(name = "Phone")
+	private String phone;
+	
+}
