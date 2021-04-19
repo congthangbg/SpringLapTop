@@ -3,58 +3,52 @@ import { useEffect, useState } from 'react'
 import { TableHead, TableRow, TableCell, TableBody, Button } from '@material-ui/core';
 import ApiCaller from '.././AxiosUtils/ApiCaller';
 import CreateProduct from './CreateProduct';
-function ListProduct({data,setData,user,setUser}) {
+function ListProduct({data,setData,laptop,setLaptop}) {
   
    const [item, setItem] = useState("")
-   // useEffect(() =>{
-   //   ApiCaller("user","get",null).then((response) =>{
-   //     setUser(response.data);
-   //   })
-   // },[])
-   // console.log(user);
 
-  
    // API
    useEffect(() => {
-      ApiCaller("user", "GET", null).then(response => {
+      ApiCaller("laptop", "GET", null).then(response => {
          const { data } = response
-         setUser(data)
+         setLaptop(data)
       })
-   }, [user])
+   }, [data])
 
-   const editUser = (value) => {
+   const editLaptop = (value) => {
       setData(value)
    }
+   console.log(item);
    return (
       <div className="container">
 
          <section className="section">
-            <h1 className="section-heading">List User</h1>
+            <h1 className="section-heading">Danh sách Laptop</h1>
             <CreateProduct 
             item={item} data={data} setData={setData}
-            user={user} setUser={setUser} />
+            laptop={laptop} setLaptop={setLaptop} />
             <div className="row">
                <table className="table table-hover ">
                   <TableHead>
                      <TableRow >
                         <TableCell>ID</TableCell>
-                        <TableCell>User</TableCell>
-                        <TableCell>Pass</TableCell>
-                        <TableCell>Image</TableCell>
+                        <TableCell>Tên Laptop</TableCell>
+                        <TableCell>Số lượng</TableCell>
+                        <TableCell>Giá</TableCell>
                         <TableCell></TableCell>
                      </TableRow>
                   </TableHead>
                   <TableBody>
                      {
-                         user.map((value, index) => {
+                         laptop.map((value, index) => {
                            return (
                               <TableRow key={index} >
                                  <TableCell>{value.id}</TableCell>
-                                 <TableCell>{value.username}</TableCell>
-                                 <TableCell>{value.password}</TableCell>
-                                 <TableCell>{value.status ? "admin" : "user"}</TableCell>
-                                 <TableCell><button onClick={() =>editUser(value)}
-                                    className="btn btn-primary">Edit</button></TableCell>
+                                 <TableCell>{value.lapTopName}</TableCell>
+                                 <TableCell>{value.amount}</TableCell>
+                                 <TableCell>{value.price }</TableCell>
+                                 <TableCell><button onClick={() =>editLaptop(value)}
+                                    className="btn btn-warning">Edit</button></TableCell>
                               </TableRow>
                            )
                         })
