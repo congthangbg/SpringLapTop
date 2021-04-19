@@ -1,4 +1,4 @@
-!SESSION 2021-04-15 15:47:52.868 -----------------------------------------------
+!SESSION 2021-04-17 10:16:37.450 -----------------------------------------------
 eclipse.buildId=4.17.0.I20200902-1800
 java.version=15.0.1
 java.vendor=Oracle Corporation
@@ -6,98 +6,98 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.ui 2 0 2021-04-15 15:48:32.129
+!ENTRY org.eclipse.ui 2 0 2021-04-17 10:16:50.124
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.129
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.124
 !MESSAGE Commands should really have a category: plug-in='org.springframework.ide.eclipse.boot', id='org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools', categoryId='org.springframework.ide.eclipse.boot.commands.category'
 
-!ENTRY org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!ENTRY org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.next'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.previous'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.source.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.add.import'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.organize.imports'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.161
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.refactor.quickMenu'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.rename.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.move.element'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.modify.method.parameters'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.inline'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.method'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.extract.local.variable'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.edit.text.java.open.hierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.TypeHierarchy'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.PackageExplorer'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.SourceView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.162
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.157
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.wst.jsdt.ui', id='org.eclipse.wst.jsdt.ui.JavadocView'
 
-!ENTRY org.eclipse.ui 2 0 2021-04-15 15:48:32.337
+!ENTRY org.eclipse.ui 2 0 2021-04-17 10:16:50.344
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-15 15:48:32.337
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-04-17 10:16:50.344
 !MESSAGE Commands should really have a category: plug-in='org.springframework.ide.eclipse.boot', id='org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools', categoryId='org.springframework.ide.eclipse.boot.commands.category'
 
-!ENTRY org.eclipse.jface 2 0 2021-04-15 15:48:33.226
+!ENTRY org.eclipse.jface 2 0 2021-04-17 10:16:51.202
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-15 15:48:33.226
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-17 10:16:51.202
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62cbe18c,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77c7d3f4,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -105,19 +105,19 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@377b7798,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@162c89ac,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-04-15 15:48:43.785
+!ENTRY org.eclipse.egit.ui 2 0 2021-04-17 10:17:02.154
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\13102'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:13:17.782
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 10:28:06.604
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -149,7 +149,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:14:57.702
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:02:08.420
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -181,7 +181,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:15:08.729
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:05:39.979
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -213,7 +213,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:15:33.366
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:08:35.782
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -245,7 +245,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:16:09.150
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:08:48.914
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -277,7 +277,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:16:29.614
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:10:43.561
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -309,7 +309,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:16:51.690
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:13:34.759
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -341,7 +341,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:17:43.134
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:13:51.500
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -373,7 +373,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:18:05.235
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:15:34.338
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -405,7 +405,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:18:20.476
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:21:16.950
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -437,7 +437,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:18:37.868
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:21:58.827
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -469,7 +469,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:18:57.515
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:22:14.881
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -501,7 +501,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:19:13.562
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:22:53.084
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -533,7 +533,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:19:32.634
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:26:28.977
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -565,7 +565,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:20:30.857
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:27:03.085
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -597,7 +597,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:20:52.054
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:27:32.370
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -629,7 +629,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:21:06.955
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:28:15.678
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -661,7 +661,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:21:27.276
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:30:35.338
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -693,7 +693,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:22:35.776
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:31:28.601
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -725,7 +725,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:22:50.886
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:31:37.639
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -757,7 +757,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:23:05.807
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:31:42.257
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -789,7 +789,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:23:17.512
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:35:30.419
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -821,7 +821,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:23:23.542
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:35:53.644
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -853,7 +853,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:23:29.640
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:40:51.230
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -885,7 +885,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:23:35.145
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:43:33.771
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -917,7 +917,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:34:45.525
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:43:42.399
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -949,7 +949,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:40:38.945
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:44:28.241
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -981,7 +981,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:42:12.337
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:47:56.770
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1013,7 +1013,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:43:23.941
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:48:16.301
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1045,7 +1045,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:43:55.476
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:49:46.273
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1077,7 +1077,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:45:10.406
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:56:46.587
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1109,7 +1109,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:45:48.251
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:57:57.397
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1141,7 +1141,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:47:20.943
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:58:32.975
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1173,7 +1173,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:47:43.360
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 11:58:40.662
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1205,7 +1205,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:48:36.530
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:08:15.679
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1237,7 +1237,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:49:19.406
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:09:28.675
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1269,7 +1269,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:50:07.715
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:10:11.401
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1301,7 +1301,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:50:36.390
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:10:44.364
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1333,7 +1333,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:50:57.320
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:11:17.285
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1365,7 +1365,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 16:51:23.554
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:12:20.001
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1397,7 +1397,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:01:29.444
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:15:30.555
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1429,7 +1429,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:04:14.780
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:15:56.525
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1461,7 +1461,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:16:24.672
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:16:19.734
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1493,7 +1493,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:17:40.689
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:16:40.693
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1525,7 +1525,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:28:14.614
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:17:07.223
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1557,7 +1557,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:32:24.940
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:17:35.040
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1589,7 +1589,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:33:01.513
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:18:03.033
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1621,7 +1621,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:37:04.830
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:19:02.747
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1653,7 +1653,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:37:13.737
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:19:50.749
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1685,7 +1685,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:38:09.239
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:20:56.851
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1717,7 +1717,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:38:19.668
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:21:19.055
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1749,7 +1749,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:39:03.108
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:21:43.194
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1781,7 +1781,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:40:42.488
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:22:06.825
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1813,7 +1813,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:41:17.462
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:22:29.655
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1845,7 +1845,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:41:54.376
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:23:01.898
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1877,7 +1877,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:44:10.621
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:23:21.932
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1909,7 +1909,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:49:09.493
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:23:47.865
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1941,7 +1941,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:52:17.862
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:24:08.515
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
@@ -1973,327 +1973,7 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
 
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 17:56:25.669
-!MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
-!STACK 0
-org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
-	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
-	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
-	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
-	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
-	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
-	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2633)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
-	... 22 more
-
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 18:05:27.111
-!MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
-!STACK 0
-org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
-	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
-	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
-	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
-	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
-	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
-	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2633)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
-	... 22 more
-
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 18:07:11.689
-!MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
-!STACK 0
-org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
-	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
-	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
-	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
-	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
-	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
-	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2633)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
-	... 22 more
-
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 18:08:02.572
-!MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
-!STACK 0
-org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
-	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
-	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
-	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
-	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
-	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
-	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2633)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
-	... 22 more
-
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 18:24:56.376
-!MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
-!STACK 0
-org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
-	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
-	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
-	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
-	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
-	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
-	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2633)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
-	... 22 more
-
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 18:25:50.471
-!MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
-!STACK 0
-org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
-	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
-	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
-	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
-	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
-	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
-	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2633)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
-	... 22 more
-
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 18:26:16.726
-!MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
-!STACK 0
-org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
-	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
-	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
-	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
-	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
-	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
-	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2633)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
-	... 22 more
-
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 18:27:02.938
-!MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
-!STACK 0
-org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
-	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
-	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
-	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
-	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
-	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
-	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2633)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
-	... 22 more
-
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 18:27:30.475
-!MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
-!STACK 0
-org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
-	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
-	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
-	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
-	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
-	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
-	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2633)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
-	... 22 more
-
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 18:28:12.190
-!MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
-!STACK 0
-org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
-	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
-	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
-	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
-	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
-	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
-	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
-	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
-	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
-	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
-	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
-	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2633)
-	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
-	... 22 more
-
-!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-15 18:28:53.937
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-04-17 12:24:33.374
 !MESSAGE Error occured processing 'com.laptop.ict.LaptopApplication'
 !STACK 0
 org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()

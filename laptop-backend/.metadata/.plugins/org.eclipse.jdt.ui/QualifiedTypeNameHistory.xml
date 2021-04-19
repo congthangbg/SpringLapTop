@@ -6,13 +6,15 @@
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
-    <fullyQualifiedTypeName name="com.laptop.ict.models.BillDetails"/>
-    <fullyQualifiedTypeName name="com.laptop.ict.models.Bills"/>
-    <fullyQualifiedTypeName name="com.laptop.ict.models.Brands"/>
-    <fullyQualifiedTypeName name="com.laptop.ict.models.Products"/>
-    <fullyQualifiedTypeName name="com.laptop.ict.models.Staff"/>
-    <fullyQualifiedTypeName name="com.laptop.ict.models.Suppliers"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.laptop.ict.models.Brand"/>
+    <fullyQualifiedTypeName name="com.laptop.ict.models.CardType"/>
+    <fullyQualifiedTypeName name="com.laptop.ict.models.ComponentBrand"/>
+    <fullyQualifiedTypeName name="com.laptop.ict.models.ComponentSupplier"/>
+    <fullyQualifiedTypeName name="com.laptop.ict.models.Laptop"/>
+    <fullyQualifiedTypeName name="com.laptop.ict.models.LaptopDetail"/>
+    <fullyQualifiedTypeName name="com.laptop.ict.models.RAMType"/>
+    <fullyQualifiedTypeName name="com.laptop.ict.models.ScreenType"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
-    <fullyQualifiedTypeName name="com.laptop.ict.models.Types"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.laptop.ict.models.Type"/>
 </qualifiedTypeNameHistroy>

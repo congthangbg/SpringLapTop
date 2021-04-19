@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.4.4</version>
+		<version>2.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.laptop</groupId>
 	<artifactId>laptop</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>laptop</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Project Laptop</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -20,6 +20,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

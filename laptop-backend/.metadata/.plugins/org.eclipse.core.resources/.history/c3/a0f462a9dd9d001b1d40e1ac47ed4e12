@@ -1,5 +1,0 @@
-package com.laptop.ict.repositorys;
-
-public interface SupplierRepository {
-
-}
