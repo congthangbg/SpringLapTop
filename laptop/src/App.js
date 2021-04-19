@@ -4,15 +4,11 @@ import Footer from './component/Footer';
 import Header from './component/Header';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import ListProduct from './component/ListProduct';
-import CreateProduct from './component/CreateProduct';
 import Slideshow from './component/Slideshow';
-import UpdateUser from './component/UpdateUser';
 function App() {
-   const [data, setData] = useState([{username: '',password:"",status: ''}])
-   const [user, setUser] = useState([])
-   // if(data != null){
-   //    console.log(data);
-   // }
+   const [data, setData] = useState([{lapTopName: '',price:"",amount: ''}])
+   const [laptop, setLaptop] = useState([])
+
    return (
       <div >
          <Router>
@@ -23,10 +19,10 @@ function App() {
                   <Switch>
                      <Route path="/" exact>
                         <ListProduct data={data} setData={setData}
-                        user={user} setUser={setUser}
+                        laptop={laptop} setLaptop={setLaptop}
                         />
                      </Route>
-                     <Route path="/user">
+                     <Route path="/laptop">
                         <ListProduct data={data} setData={setData}/>
                      </Route>
                   </Switch>
