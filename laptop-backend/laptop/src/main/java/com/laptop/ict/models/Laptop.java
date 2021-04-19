@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.sun.istack.NotNull;
+
 @Entity
 @Table(name = "laptops")
 public class Laptop implements Serializable {
@@ -17,6 +19,7 @@ public class Laptop implements Serializable {
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private Integer id;
 		@Column(length = 100)
+		@NotNull
 		private String lapTopName;
 		@Column
 		private float price;
