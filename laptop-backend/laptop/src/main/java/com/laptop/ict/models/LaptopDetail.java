@@ -1,6 +1,7 @@
 package com.laptop.ict.models;
 
 import java.io.Serializable;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -84,7 +85,7 @@ public class LaptopDetail implements Serializable {
 		joinColumns = { @JoinColumn(name = "laptopdetail_id") },
 		inverseJoinColumns = { @JoinColumn(name = "screentype_id") })
 		
-		private Set<ScreenType> screen = new HashSet<>();
+		private Set<ScreenType> screentypes = new HashSet<>();
 	
 	
 	@ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
@@ -92,37 +93,9 @@ public class LaptopDetail implements Serializable {
 		joinColumns = { @JoinColumn(name = "laptopdetail_id") },
 		inverseJoinColumns = { @JoinColumn(name = "ramtype_id") })
 	
-		private Set<RAMType> ram = new HashSet<>();
-
+		private Set<RAMType> ramtypes = new HashSet<>();
 	
 	
-
-	public LaptopDetail() {
-		super();
-	}
-
-
-	public LaptopDetail(Integer id, String cpu, String rom, String keyBoard, String system, String color,
-			String connector, String camera, String audio, String pin, String size, String weight, String component,
-			String year, Set<ScreenType> screen, Set<RAMType> ram) {
-		super();
-		this.id = id;
-		this.cpu = cpu;
-		this.rom = rom;
-		this.keyBoard = keyBoard;
-		this.system = system;
-		this.color = color;
-		this.connector = connector;
-		this.camera = camera;
-		this.audio = audio;
-		this.pin = pin;
-		this.size = size;
-		this.weight = weight;
-		this.component = component;
-		this.year = year;
-		this.screen = screen;
-		this.ram = ram;
-	}
 
 
 	public Integer getId() {
@@ -265,27 +238,26 @@ public class LaptopDetail implements Serializable {
 	}
 
 
-	public Set<ScreenType> getScreen() {
-		return screen;
+	public Set<ScreenType> getScreentypes() {
+		return screentypes;
 	}
 
 
-	public void setScreen(Set<ScreenType> screen) {
-		this.screen = screen;
+	public void setScreentypes(Set<ScreenType> screentypes) {
+		this.screentypes = screentypes;
 	}
 
 
-	public Set<RAMType> getRam() {
-		return ram;
+	public Set<RAMType> getRamtypes() {
+		return ramtypes;
 	}
 
 
-	public void setRam(Set<RAMType> ram) {
-		this.ram = ram;
+	public void setRamtypes(Set<RAMType> ramtypes) {
+		this.ramtypes = ramtypes;
 	}
 
-		
-		
+	
 	
 	
 }

@@ -1,6 +1,7 @@
 package com.laptop.ict.models;
 
 import java.io.Serializable;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -38,26 +39,18 @@ public class RAMType implements Serializable {
 	@NotNull
 	private String speed;
 	
-	@ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-	@JoinTable(name = "ramtype_laptopdetail",
-		joinColumns = { @JoinColumn(name = "ramtype_id") },
-		inverseJoinColumns = { @JoinColumn(name = "laptopdetail_id") })
-	
-		private Set<LaptopDetail> laptopdetail = new HashSet<>();
-	
 	
 
 	public RAMType() {
 		super();
 	}
 
-	public RAMType(Integer id, Integer gb, String ramType, String speed, Set<LaptopDetail> laptopdetail) {
+	public RAMType(Integer id, Integer gb, String ramType, String speed) {
 		super();
 		this.id = id;
 		this.gb = gb;
 		this.ramType = ramType;
 		this.speed = speed;
-		this.laptopdetail = laptopdetail;
 	}
 
 	public Integer getId() {
@@ -91,15 +84,11 @@ public class RAMType implements Serializable {
 	public void setSpeed(String speed) {
 		this.speed = speed;
 	}
-
-	public Set<LaptopDetail> getLaptopdetail() {
-		return laptopdetail;
-	}
-
-	public void setLaptopdetail(Set<LaptopDetail> laptopdetail) {
-		this.laptopdetail = laptopdetail;
-	}
-
+	
+//	@ManyToMany(mappedBy = "ramtypes")
+//	private Collection<LaptopDetail> laptopdetails;
+	
+	
 	
 	
 	

@@ -1,6 +1,7 @@
 package com.laptop.ict.models;
 
 import java.io.Serializable;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -42,28 +43,19 @@ public class ScreenType implements Serializable {
 	@NotNull
 	private String induction;
 	
-	@ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-	@JoinTable(name = "screentype_laptopdetail",
-		joinColumns = { @JoinColumn(name = "product_id") },
-		inverseJoinColumns = { @JoinColumn(name = "laptopdetail_id") })
-	
-	    private Set<LaptopDetail> laptopdetail = new HashSet<>();
-	
 	
 
 	public ScreenType() {
 		super();
 	}
 
-	public ScreenType(Integer id, String size, String resolution, String technology, String induction,
-			Set<LaptopDetail> laptopdetail) {
+	public ScreenType(Integer id, String size, String resolution, String technology, String induction) {
 		super();
 		this.id = id;
 		this.size = size;
 		this.resolution = resolution;
 		this.technology = technology;
 		this.induction = induction;
-		this.laptopdetail = laptopdetail;
 	}
 
 	public Integer getId() {
@@ -105,14 +97,11 @@ public class ScreenType implements Serializable {
 	public void setInduction(String induction) {
 		this.induction = induction;
 	}
-
-	public Set<LaptopDetail> getLaptopdetail() {
-		return laptopdetail;
-	}
-
-	public void setLaptopdetail(Set<LaptopDetail> laptopdetail) {
-		this.laptopdetail = laptopdetail;
-	}
+	
+//	@ManyToMany(mappedBy = "screentypes")
+//	private Collection<LaptopDetail> laptopdetails;
+	
+	
 
 	
 	

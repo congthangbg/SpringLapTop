@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.ResourceAccessException;
 
 import com.laptop.ict.models.RAMType;
-import com.laptop.ict.repositorys.RAMTypeRepository;
+import com.laptop.ict.services.RAMTypeService;
 
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
@@ -26,24 +26,24 @@ import com.laptop.ict.repositorys.RAMTypeRepository;
 public class RAMTypeController {
 	
 	@Autowired
-	private RAMTypeRepository ramTypeRepository;
+	private RAMTypeService ramTypeService;
 	
 	//get
 	@GetMapping("/ramtype")
 	public List<RAMType> getAll(){
-		return ramTypeRepository.findAll();
+		return ramTypeService.findAll();
 	}
 	
 	//create
 	@PostMapping("/ramtype")
 	public RAMType create(@RequestBody RAMType ramtype) {
-		return ramTypeRepository.save(ramtype);
+		return ramTypeService.save(ramtype);
 	}
 	
 	//get data by id
 	@GetMapping("/ramtype/{id}")
 	public ResponseEntity<RAMType> getRAMTypeById(@PathVariable Integer id) throws Exception{
-		RAMType ramtype = ramTypeRepository.findById(id).get();
+		RAMType ramtype = ramTypeService.findById(id).get();
 		if(ramtype == null) {
 			throw new Exception();
 		}else {
@@ -54,24 +54,23 @@ public class RAMTypeController {
 	//update
 	@PutMapping("/ramtype/{id}")
 	public ResponseEntity<RAMType> updateRAMType(@PathVariable Integer id, @RequestBody RAMType ramTypeNew) throws Exception{
-		RAMType ramtype = ramTypeRepository.findById(id).get();
+		RAMType ramtype = ramTypeService.findById(id).get();
 		if(ramtype == null) {
 			throw new Exception();
 		}else {
 			ramtype.setGb(ramTypeNew.getGb());
 			ramtype.setRamType(ramTypeNew.getRamType());
 			ramtype.setSpeed(ramTypeNew.getSpeed());
-			ramtype.setLaptopdetail(ramTypeNew.getLaptopdetail());
 			
-			return ResponseEntity.ok(ramTypeRepository.save(ramtype));
+			return ResponseEntity.ok(ramTypeService.save(ramtype));
 		}
 	}
 	
 	//delete
 	@DeleteMapping("/ramtype/{id}")
 	public ResponseEntity<Map<String, Boolean>> deleteRAMType(@PathVariable Integer id){
-		RAMType ramtype = ramTypeRepository.findById(id).orElseThrow(() -> new ResourceAccessException("RAMType not exist with id:" + id) );
-		ramTypeRepository.delete(ramtype);
+		RAMType ramtype = ramTypeService.findById(id).orElseThrow(() -> new ResourceAccessException("RAMType not exist with id:" + id) );
+		ramTypeService.delete(ramtype);
 		Map<String, Boolean> response = new HashMap<>();
 		response.put("delete", Boolean.TRUE);
 		return ResponseEntity.ok(response);
