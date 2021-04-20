@@ -78,7 +78,7 @@ public class LaptopController {
 		}else {
 			laptop.setLapTopName(laptopDetail.getLapTopName());
 			laptop.setPrice(laptopDetail.getPrice());
-
+			laptop.setImage(laptopDetail.getImage());
 			return ResponseEntity.ok(laptopRepository.save(laptop));
 		}
 	}

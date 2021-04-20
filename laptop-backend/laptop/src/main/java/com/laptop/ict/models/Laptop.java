@@ -55,6 +55,14 @@ public class Laptop implements Serializable {
 		public void setPrice(float price) {
 			this.price = price;
 		}
+
+		public String getImage() {
+			return image;
+		}
+
+		public void setImage(String image) {
+			this.image = image;
+		}
 		
 		
 		
