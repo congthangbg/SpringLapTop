@@ -18,30 +18,25 @@ public class Laptop implements Serializable {
 		@Id
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private Integer id;
+		
 		@Column(length = 100)
 		@NotNull
 		private String lapTopName;
+		
 		@Column
+		@NotNull
 		private float price;
 		
 		@Column
+		@NotNull
 		private String image;
+		
+		
 		
 		public Laptop() {
 			super();
 		}
-	
 		
-		public String getImage() {
-			return image;
-		}
-
-
-		public void setImage(String image) {
-			this.image = image;
-		}
-
-
 		public Integer getId() {
 			return id;
 		}
@@ -60,13 +55,8 @@ public class Laptop implements Serializable {
 		public void setPrice(float price) {
 			this.price = price;
 		}
-
-		public Laptop(Integer id, String lapTopName, float price, String image) {
-			super();
-			this.id = id;
-			this.lapTopName = lapTopName;
-			this.price = price;
-			this.image = image;
-		}
-	
+		
+		
+		
+		
 }
