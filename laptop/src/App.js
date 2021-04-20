@@ -1,13 +1,15 @@
 
 import React, { useEffect, useState } from 'react'
-import Footer from './component/Footer';
-import Header from './component/Header';
+import Footer from './componentLaptop/Footer';
+import Header from './componentLaptop/Header';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import ListProduct from './component/ListProduct';
-import Slideshow from './component/Slideshow';
+import ListProduct from './componentLaptop/MainLaptop';
+import Slideshow from './componentLaptop/Slideshow';
+import './App.css';
 function App() {
    const [data, setData] = useState([{lapTopName: '',price:"",amount: ''}])
    const [laptop, setLaptop] = useState([])
+   const [item, setItem] = useState(false)
 
    return (
       <div >
@@ -20,10 +22,15 @@ function App() {
                      <Route path="/" exact>
                         <ListProduct data={data} setData={setData}
                         laptop={laptop} setLaptop={setLaptop}
+                        item={item} setItem={setItem}
                         />
                      </Route>
                      <Route path="/laptop">
-                        <ListProduct data={data} setData={setData}/>
+                        <ListProduct 
+                        data={data} setData={setData}
+                        laptop={laptop} setLaptop={setLaptop}
+                        item={item} setItem={setItem}
+                        />
                      </Route>
                   </Switch>
                </main>
