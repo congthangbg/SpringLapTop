@@ -91,6 +91,5 @@ public class LaptopController {
 		Map<String , Boolean> response=new HashMap<>();
 		response.put("delete", Boolean.TRUE);
 		return ResponseEntity.ok(response);
-
 	}
 }
