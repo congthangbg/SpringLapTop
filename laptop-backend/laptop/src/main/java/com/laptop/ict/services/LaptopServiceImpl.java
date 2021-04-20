@@ -3,6 +3,7 @@ package com.laptop.ict.services;
 import java.util.List;
 import java.util.Optional;
 
+import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
@@ -138,6 +139,13 @@ public class LaptopServiceImpl implements LaptopService{
 	public void deleteAll() {
 		laptopRepository.deleteAll();
 	}
-	
-	
+
+	@Override
+	public Page<Laptop> findPageLaptop(
+			org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable pageable) {
+		return laptopRepository.findPageLaptop((Pageable) pageable);
+	}
+
+
+
 }

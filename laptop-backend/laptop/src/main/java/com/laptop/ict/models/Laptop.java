@@ -29,20 +29,13 @@ public class Laptop implements Serializable {
 		
 		@Column
 		@NotNull
-		private Integer amount;
-		
-		
+
+		private String image;
 		
 		public Laptop() {
 			super();
 		}
-		public Laptop(Integer id, String lapTopName, float price, Integer amount) {
-			super();
-			this.id = id;
-			this.lapTopName = lapTopName;
-			this.price = price;
-			this.amount = amount;
-		}
+		
 		public Integer getId() {
 			return id;
 		}
@@ -61,13 +54,13 @@ public class Laptop implements Serializable {
 		public void setPrice(float price) {
 			this.price = price;
 		}
-		public Integer getAmount() {
-			return amount;
+
+		public String getImage() {
+			return image;
 		}
-		public void setAmount(Integer amount) {
-			this.amount = amount;
+
+		public void setImage(String image) {
+			this.image = image;
 		}
-		
-		
-		
+
 }
