@@ -35,7 +35,7 @@ function Header() {
               <Link to="/" >Trang chủ</Link>
             </li>
             <li className="breadcrumb-item">
-              <Link to="/ListProduct">Quản lý sản phẩm</Link>
+              <Link to="/screentype">Quản lý màn hìnhs</Link>
             </li>
             <li className="breadcrumb-item">
               <Link to="/Category">Quản lý danh mục</Link>
