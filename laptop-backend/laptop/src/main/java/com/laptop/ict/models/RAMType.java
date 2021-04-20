@@ -1,13 +1,23 @@
 package com.laptop.ict.models;
 
 import java.io.Serializable;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
+
+import com.sun.istack.NotNull;
 
 @Entity
 @Table(name = "ramtypes")
@@ -18,12 +28,15 @@ public class RAMType implements Serializable {
 	private Integer id;
 	
 	@Column
+	@NotNull
 	private Integer gb;
 	
 	@Column(length = 50)
+	@NotNull
 	private String ramType;
 	
 	@Column(length = 50)
+	@NotNull
 	private String speed;
 	
 	
@@ -71,6 +84,11 @@ public class RAMType implements Serializable {
 	public void setSpeed(String speed) {
 		this.speed = speed;
 	}
+	
+//	@ManyToMany(mappedBy = "ramtypes")
+//	private Collection<LaptopDetail> laptopdetails;
+	
+	
 	
 	
 	

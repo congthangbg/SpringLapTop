@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Footer from './componentLaptop/Footer';
 import Header from './componentLaptop/Header';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+<<<<<<< HEAD
 import ListProduct from './componentLaptop/MainLaptop';
 import Slideshow from './componentLaptop/Slideshow';
 import './App.css';
@@ -10,6 +11,16 @@ function App() {
    const [data, setData] = useState([{lapTopName: '',price:"",amount: ''}])
    const [laptop, setLaptop] = useState([])
    const [item, setItem] = useState(false)
+=======
+import ListProduct from './component/ListProduct';
+import Slideshow from './component/Slideshow';
+import ListScreenTypeComponent from './ScreenTypeComponent/ListScreenTypeComponent';
+function App() {
+   const [data, setData] = useState([{lapTopName: '',price:"",amount: ''}])
+   const [laptop, setLaptop] = useState([])
+   const [screentype, setScreentype] = useState([])
+   const [dataScreen, setdataScreen] = useState([{size: '',resolution:"",technology: '',induction: ''}])
+>>>>>>> 3979852080ced99ef52dd8e9fa409e6527dc31c4
 
    return (
       <div >
@@ -31,6 +42,9 @@ function App() {
                         laptop={laptop} setLaptop={setLaptop}
                         item={item} setItem={setItem}
                         />
+                     </Route>
+                     <Route path="/screentype">
+                       <ListScreenTypeComponent screentype={screentype} setScreenType={setScreentype} dataScreen={dataScreen} setdataScreen={setdataScreen}  />
                      </Route>
                   </Switch>
                </main>

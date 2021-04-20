@@ -29,7 +29,11 @@ public class Laptop implements Serializable {
 		
 		@Column
 		@NotNull
+<<<<<<< HEAD
 		private String image;
+=======
+		private Integer amount;
+>>>>>>> 3979852080ced99ef52dd8e9fa409e6527dc31c4
 		
 		
 		
