@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.sun.istack.NotNull;
+
 @Entity
 @Table(name = "componentsuppliers")
 public class ComponentSupplier implements Serializable {
@@ -18,12 +20,15 @@ public class ComponentSupplier implements Serializable {
 	private Integer id;
 	
 	@Column(length = 50)
+	@NotNull
 	private String supplierName;
 	
 	@Column(length = 50)
+	@NotNull
 	private String address;
 	
 	@Column
+	@NotNull
 	private Integer phone;
 	
 	

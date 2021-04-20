@@ -1,13 +1,23 @@
 package com.laptop.ict.models;
 
 import java.io.Serializable;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
+
+import com.sun.istack.NotNull;
 
 @Entity
 @Table(name = "screentypes")
@@ -18,15 +28,19 @@ public class ScreenType implements Serializable {
 	private Integer id;
 	
 	@Column(length = 50)
+	@NotNull
 	private String size;
 	
 	@Column(length = 50)
+	@NotNull
 	private String resolution;
 	
 	@Column(length = 50)
+	@NotNull
 	private String technology;
 	
 	@Column(length = 50)
+	@NotNull
 	private String induction;
 	
 	
@@ -83,6 +97,12 @@ public class ScreenType implements Serializable {
 	public void setInduction(String induction) {
 		this.induction = induction;
 	}
+	
+//	@ManyToMany(mappedBy = "screentypes")
+//	private Collection<LaptopDetail> laptopdetails;
+	
+	
+
 	
 	
 	

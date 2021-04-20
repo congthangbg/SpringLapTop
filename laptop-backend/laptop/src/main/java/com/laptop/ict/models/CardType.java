@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.sun.istack.NotNull;
+
 @Entity
 @Table(name = "cardtypes")
 public class CardType implements Serializable {
@@ -18,9 +20,11 @@ public class CardType implements Serializable {
 	private Integer id;
 	
 	@Column(length = 50)
+	@NotNull
 	private String cardDesign;
 	
 	@Column(length = 50)
+	@NotNull
 	private String cardType;
 	
 	

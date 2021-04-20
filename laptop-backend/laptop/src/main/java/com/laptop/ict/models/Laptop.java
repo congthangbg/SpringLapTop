@@ -18,12 +18,17 @@ public class Laptop implements Serializable {
 		@Id
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private Integer id;
+		
 		@Column(length = 100)
 		@NotNull
 		private String lapTopName;
+		
 		@Column
+		@NotNull
 		private float price;
+		
 		@Column
+		@NotNull
 		private Integer amount;
 		
 		

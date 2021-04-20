@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.sun.istack.NotNull;
+
 @Entity
 @Table(name = "types")
 public class Type implements Serializable {
@@ -18,6 +20,7 @@ public class Type implements Serializable {
 	private Integer id;
 	
 	@Column(length = 50)
+	@NotNull
 	private String typeName;
 	
 	
