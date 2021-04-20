@@ -6,11 +6,14 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import ListProduct from './component/ListProduct';
 import Slideshow from './component/Slideshow';
 import ListScreenTypeComponent from './ScreenTypeComponent/ListScreenTypeComponent';
+import ListRamTypeComponent from './RamTypeComponent/ListRamTypeComponent';
 function App() {
    const [data, setData] = useState([{lapTopName: '',price:"",amount: ''}])
    const [laptop, setLaptop] = useState([])
    const [screentype, setScreentype] = useState([])
    const [dataScreen, setdataScreen] = useState([{size: '',resolution:"",technology: '',induction: ''}])
+   const [ramtype, setRamType] = useState([])
+   const [dataRam, setdataRam] = useState([{gb: '',ramType:"",speed: ''}])
 
    return (
       <div >
@@ -30,6 +33,9 @@ function App() {
                      </Route>
                      <Route path="/screentype">
                        <ListScreenTypeComponent screentype={screentype} setScreenType={setScreentype} dataScreen={dataScreen} setdataScreen={setdataScreen}  />
+                     </Route>
+                     <Route path="/ramtype">
+                       <ListRamTypeComponent ramtype={ramtype} setRamType={setRamType} dataRam={dataRam} setdataRam={setdataRam}  />
                      </Route>
                   </Switch>
                </main>
