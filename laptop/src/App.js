@@ -6,7 +6,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import MainLaptop from './componentLaptop/MainLaptop'
 import Slideshow from './componentLaptop/Slideshow';
 import './App.css';
-
+import ListTypeComponent from './TypeComponent/ListTypeComponent';
+import ListBrandComponent from './BrandComponent/ListBrandComponent';
 import ListScreenTypeComponent from './ScreenTypeComponent/ListScreenTypeComponent';
 import ListRamTypeComponent from './RamTypeComponent/ListRamTypeComponent';
 function App() {
@@ -22,6 +23,11 @@ function App() {
       const [laptopDetail,setLaptopDetail] = useState([{cpu :"",rom:"",keyBoard:"",system:"",color:"",connector:"",camera:"",
                                                          audio:"",pin:"",size:"",weight:"",component:"",year:""}])
         const [dataLaptopDetail, setDataLaptopDetail] = useState("")
+
+        const [ramtype, setRamType] = useState([])
+        const [dataRam, setdataRam] = useState([{gb: '',ramType:"",speed: ''}])
+        const [dataType, setdataType] = useState([{typeName: ''}])
+        const [dataBrand, setdataBrand] = useState([{brandName: ''}])
       return (
          <div >
             <Router>
@@ -54,6 +60,15 @@ function App() {
                         <Route path="/screentype">
                            <ListScreenTypeComponent screentype={screentype} setScreenType={setScreentype} dataScreen={dataScreen} setdataScreen={setdataScreen} />
                         </Route>
+                        <Route path="/ramtype">
+                       <ListRamTypeComponent ramtype={ramtype} setRamType={setRamType} dataRam={dataRam} setdataRam={setdataRam}  />
+                     </Route>
+                     <Route path="/type">
+                       <ListTypeComponent type={type} setType={setType} dataType={dataType} setdataType={setdataType}  />
+                     </Route>
+                     <Route path="/brand">
+                       <ListBrandComponent brand={brand} setBrand={setBrand} dataBrand={dataBrand} setdataBrand={setdataBrand}  />
+                     </Route>
                         {/* <Route path="/ramtype">
                            <ListRamTypeComponent ramtype={ramtype} setRamType={setRamType} dataRam={dataRam} setdataRam={setdataRam} />
                         </Route> */}
