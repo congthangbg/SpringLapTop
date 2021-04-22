@@ -92,8 +92,13 @@ public class LaptopDetail implements Serializable {
 			@JoinColumn(name = "laptopdetail_id") }, inverseJoinColumns = { @JoinColumn(name = "ramtype_id") })
 
 	private Set<RAMType> ramtypes = new HashSet<>();
-
 	
+	@ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	@JoinTable(name = "cardtype_laptopdetail", joinColumns = {
+			@JoinColumn(name = "laptopdetail_id") }, inverseJoinColumns = { @JoinColumn(name = "cardtype_id") })
+
+	private Set<RAMType> cardtypes = new HashSet<>();
+
 	public Integer getId() {
 		return id;
 	}
@@ -222,4 +227,14 @@ public class LaptopDetail implements Serializable {
 		this.ramtypes = ramtypes;
 	}
 
+	public Set<RAMType> getCardtypes() {
+		return cardtypes;
+	}
+
+	public void setCardtypes(Set<RAMType> cardtypes) {
+		this.cardtypes = cardtypes;
+	}
+
+	
+	
 }
