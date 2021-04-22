@@ -140,12 +140,9 @@ public class LaptopServiceImpl implements LaptopService{
 		laptopRepository.deleteAll();
 	}
 
-	@Override
-	public Page<Laptop> findPageLaptop(
-			org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable pageable) {
-		return laptopRepository.findPageLaptop((Pageable) pageable);
+	public Page<Laptop> findPageLaptop(Pageable pageable) {
+		return laptopRepository.findPageLaptop(pageable);
 	}
-
-
+	
 
 }

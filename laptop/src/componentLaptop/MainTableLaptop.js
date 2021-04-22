@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 function TableLaptop() {
    return (
@@ -40,10 +40,10 @@ function TableLaptop() {
             <tbody>
 
                <tr>
-                  <td><a href="#">Work 3</a></td>
+                  <td>Work 3</td>
                   <td>Dooley</td>
                   <td>july@example.com</td>
-                  <td><a href="#">Work 3</a></td>
+                  <td>Work 3</td>
                   <td>Dooley</td>
                   <td>july@example.com</td>
                   <td>july@example.com</td>

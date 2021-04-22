@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.ResourceAccessException;
 
 import com.laptop.ict.models.Laptop;
-import com.laptop.ict.repositorys.LaptopRepository;
+import com.laptop.ict.services.LaptopService;
 
 
 @CrossOrigin(origins = "http://localhost:3000")
@@ -31,11 +31,11 @@ import com.laptop.ict.repositorys.LaptopRepository;
 @RequestMapping("api/")
 public class LaptopController {
 	@Autowired
-	private LaptopRepository laptopRepository;
+	private LaptopService laptopService;
 	
 	@GetMapping("/laptop")
 	public List<Laptop> getAll(){
-		return laptopRepository.findAll();
+		return laptopService.findAll();
 	}
 	 @GetMapping("/laptop/page")
 	  public Page<Laptop> listCustomer(
@@ -52,17 +52,18 @@ public class LaptopController {
 	    Pageable pageable = PageRequest.of(page, size, sortable);
 	    
 	     
-	    return laptopRepository.findPageLaptop(pageable);
+	    return laptopService.findPageLaptop(pageable);
 	  }
 	//create
 	@PostMapping("/laptop")
 	public Laptop create(@RequestBody Laptop laptop) {
-		return laptopRepository.save(laptop);
+		System.out.println(laptop);
+		return laptopService.save(laptop);
 	}
 	//get laptop by id rest api
 	@GetMapping("/laptop/{id}")
 	public ResponseEntity<Laptop> getLaptopById(@PathVariable Integer id) throws Exception{
-		Laptop laptop=laptopRepository.findById(id).get();
+		Laptop laptop=laptopService.findById(id).get();
 		if(laptop == null) {
 			throw new Exception();
 		}else {
@@ -72,22 +73,22 @@ public class LaptopController {
 	//update
 	@PutMapping("/laptop/{id}")
 	public ResponseEntity<Laptop> updateLaptop(@PathVariable Integer id,@RequestBody Laptop laptopDetail) throws Exception{
-		Laptop laptop=laptopRepository.findById(id).get();
+		Laptop laptop=laptopService.findById(id).get();
 		if(laptop== null) {
 			throw new Exception();
 		}else {
 			laptop.setLapTopName(laptopDetail.getLapTopName());
 			laptop.setPrice(laptopDetail.getPrice());
 			laptop.setImage(laptopDetail.getImage());
-			return ResponseEntity.ok(laptopRepository.save(laptop));
+			return ResponseEntity.ok(laptopService.save(laptop));
 		}
 	}
 	//delete
 	@DeleteMapping("/laptop/{id}")
 	public ResponseEntity< Map<String, Boolean>> deleteLaptop(@PathVariable Integer id){
-		Laptop laptop=laptopRepository.findById(id)
+		Laptop laptop=laptopService.findById(id)
 				.orElseThrow(()-> new ResourceAccessException("Laptop not exist with id : "+ id));
-		laptopRepository.delete(laptop);
+		laptopService.delete(laptop);
 		Map<String , Boolean> response=new HashMap<>();
 		response.put("delete", Boolean.TRUE);
 		return ResponseEntity.ok(response);

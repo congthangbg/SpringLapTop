@@ -1,6 +1,5 @@
-import React, { Component, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { AppBar, Toolbar, IconButton, Typography, Button, Drawer } from '@material-ui/core'
-import ApiCaller from '../AxiosUtils/ApiCaller'
 import {
   BrowserRouter as Router,
   Switch,

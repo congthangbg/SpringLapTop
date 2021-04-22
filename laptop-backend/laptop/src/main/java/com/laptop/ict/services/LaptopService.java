@@ -62,7 +62,7 @@ public interface LaptopService {
 
 	Laptop save(Laptop entity);
 
-	Page<Laptop> findPageLaptop(org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable pageable);
+	Page<Laptop> findPageLaptop(Pageable pageable);
 
 
 }
