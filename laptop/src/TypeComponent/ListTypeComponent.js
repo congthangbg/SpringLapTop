@@ -2,54 +2,50 @@ import React, { Component } from 'react';
 import { useEffect, useState } from 'react';
 import { TableHead, TableRow, TableCell, TableBody, Button } from '@material-ui/core';
 import ApiCaller from '.././AxiosUtils/ApiCaller';
-import CreateRamTypeComponent from './CreateRamTypeComponent';
+import CreateTypeComponent from './CreateTypeComponent';
 
 
-function ListRamTypeComponent({dataRam,setdataRam,ramtype,setRamType}){
+function ListTypeComponent({dataType,setdataType,type,setType}){
 
     const [item, setItem] = useState("")
 
     // API
     useEffect(() => {
-        ApiCaller("ramtype", "GET",null).then(response => {
+        ApiCaller("type", "GET",null).then(response => {
             const  data  = response.data
-            setRamType(data)
+            setType(data)
         })
-    },[dataRam])
+    },[dataType])
 
-    const editRamType = (value) => {
-      setdataRam(value)
+    const editType = (value) => {
+      setdataType(value)
     }
-    console.log(ramtype)
+    console.log(type)
     return (
         <div className="container">
   
            <section className="section">
-              <h1 className="section-heading">Loại RAM</h1>
-              <CreateRamTypeComponent
-              item={item} dataRam={dataRam} setdataRam={setdataRam}
-              ramtype={ramtype} setRamType={setRamType} />
+              <h1 className="section-heading">Phân loại Laptop</h1>
+              <CreateTypeComponent
+              item={item} dataType={dataType} setdataType={setdataType}
+              type={type} setType={setType} />
               <div className="row">
                  <table className="table table-hover ">
                     <TableHead>
                        <TableRow >
                           <TableCell>ID</TableCell>
-                          <TableCell>GB</TableCell>
-                          <TableCell>Loại RAM</TableCell>
-                          <TableCell>Tốc độ</TableCell>
+                          <TableCell>Tên loại</TableCell>
                           <TableCell></TableCell>
                        </TableRow>
                     </TableHead>
                     <TableBody>
                        {
-                           ramtype.map((value, index) => {
+                           type.map((value, index) => {
                              return (
                                 <TableRow key={index} >
                                    <TableCell>{value.id}</TableCell>
-                                   <TableCell>{value.gb}</TableCell>
-                                   <TableCell>{value.ramType}</TableCell>
-                                   <TableCell>{value.speed }</TableCell>
-                                   <TableCell><button onClick={() =>editRamType(value)}
+                                   <TableCell>{value.typeName}</TableCell>
+                                   <TableCell><button onClick={() =>editType(value)}
                                       className="btn btn-warning">Edit</button></TableCell>
                                 </TableRow>
                              )
@@ -67,4 +63,4 @@ function ListRamTypeComponent({dataRam,setdataRam,ramtype,setRamType}){
      );
 
 }
-export default ListRamTypeComponent;
+export default ListTypeComponent;

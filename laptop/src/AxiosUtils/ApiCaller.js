@@ -7,10 +7,6 @@ export default function callApi(endpoint, method="GET",body) {
       url:`${Config.API_URL}/${endpoint}`,
       data:body
    })
-   // .then(response =>{
-   //    const { data}= response
-   //    setProduct(data)
-   // })
    .catch(err =>{
       console.log(err,err.response);
    })

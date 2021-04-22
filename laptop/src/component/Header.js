@@ -35,7 +35,16 @@ function Header() {
               <Link to="/" >Trang chủ</Link>
             </li>
             <li className="breadcrumb-item">
-              <Link to="/screentype">Quản lý màn hìnhs</Link>
+              <Link to="/screentype">Quản lý màn hình</Link>
+            </li>
+            <li className="breadcrumb-item">
+              <Link to="/ramtype">Quản lý Ram</Link>
+            </li>
+            <li className="breadcrumb-item">
+              <Link to="/type">Loại Laptop</Link>
+            </li>
+            <li className="breadcrumb-item">
+              <Link to="/brand">Hãng Laptop</Link>
             </li>
             <li className="breadcrumb-item">
               <Link to="/Category">Quản lý danh mục</Link>

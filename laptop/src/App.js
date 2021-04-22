@@ -7,6 +7,8 @@ import ListProduct from './component/ListProduct';
 import Slideshow from './component/Slideshow';
 import ListScreenTypeComponent from './ScreenTypeComponent/ListScreenTypeComponent';
 import ListRamTypeComponent from './RamTypeComponent/ListRamTypeComponent';
+import ListTypeComponent from './TypeComponent/ListTypeComponent';
+import ListBrandComponent from './BrandComponent/ListBrandComponent';
 function App() {
    const [data, setData] = useState([{lapTopName: '',price:"",amount: ''}])
    const [laptop, setLaptop] = useState([])
@@ -14,6 +16,10 @@ function App() {
    const [dataScreen, setdataScreen] = useState([{size: '',resolution:"",technology: '',induction: ''}])
    const [ramtype, setRamType] = useState([])
    const [dataRam, setdataRam] = useState([{gb: '',ramType:"",speed: ''}])
+   const [type, setType] = useState([])
+   const [dataType, setdataType] = useState([{typeName: ''}])
+   const [brand, setBrand] = useState([])
+   const [dataBrand, setdataBrand] = useState([{brandName: ''}])
 
    return (
       <div >
@@ -36,6 +42,12 @@ function App() {
                      </Route>
                      <Route path="/ramtype">
                        <ListRamTypeComponent ramtype={ramtype} setRamType={setRamType} dataRam={dataRam} setdataRam={setdataRam}  />
+                     </Route>
+                     <Route path="/type">
+                       <ListTypeComponent type={type} setType={setType} dataType={dataType} setdataType={setdataType}  />
+                     </Route>
+                     <Route path="/brand">
+                       <ListBrandComponent brand={brand} setBrand={setBrand} dataBrand={dataBrand} setdataBrand={setdataBrand}  />
                      </Route>
                   </Switch>
                </main>

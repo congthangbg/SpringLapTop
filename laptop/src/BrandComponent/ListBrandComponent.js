@@ -2,54 +2,50 @@ import React, { Component } from 'react';
 import { useEffect, useState } from 'react';
 import { TableHead, TableRow, TableCell, TableBody, Button } from '@material-ui/core';
 import ApiCaller from '.././AxiosUtils/ApiCaller';
-import CreateRamTypeComponent from './CreateRamTypeComponent';
+import CreateBrandComponent from './CreateBrandComponent';
 
 
-function ListRamTypeComponent({dataRam,setdataRam,ramtype,setRamType}){
+function ListBrandComponent({dataBrand,setdataBrand,brand,setBrand}){
 
     const [item, setItem] = useState("")
 
     // API
     useEffect(() => {
-        ApiCaller("ramtype", "GET",null).then(response => {
+        ApiCaller("brand", "GET",null).then(response => {
             const  data  = response.data
-            setRamType(data)
+            setBrand(data)
         })
-    },[dataRam])
+    },[dataBrand])
 
-    const editRamType = (value) => {
-      setdataRam(value)
+    const editBrand = (value) => {
+      setdataBrand(value)
     }
-    console.log(ramtype)
+    console.log(brand)
     return (
         <div className="container">
   
            <section className="section">
-              <h1 className="section-heading">Loại RAM</h1>
-              <CreateRamTypeComponent
-              item={item} dataRam={dataRam} setdataRam={setdataRam}
-              ramtype={ramtype} setRamType={setRamType} />
+              <h1 className="section-heading">Hãng Laptop</h1>
+              <CreateBrandComponent
+              item={item} dataBrand={dataBrand} setdataBrand={setdataBrand}
+              brand={brand} setBrand={setBrand} />
               <div className="row">
                  <table className="table table-hover ">
                     <TableHead>
                        <TableRow >
                           <TableCell>ID</TableCell>
-                          <TableCell>GB</TableCell>
-                          <TableCell>Loại RAM</TableCell>
-                          <TableCell>Tốc độ</TableCell>
+                          <TableCell>Tên hãng</TableCell>
                           <TableCell></TableCell>
                        </TableRow>
                     </TableHead>
                     <TableBody>
                        {
-                           ramtype.map((value, index) => {
+                           brand.map((value, index) => {
                              return (
                                 <TableRow key={index} >
                                    <TableCell>{value.id}</TableCell>
-                                   <TableCell>{value.gb}</TableCell>
-                                   <TableCell>{value.ramType}</TableCell>
-                                   <TableCell>{value.speed }</TableCell>
-                                   <TableCell><button onClick={() =>editRamType(value)}
+                                   <TableCell>{value.brandName}</TableCell>
+                                   <TableCell><button onClick={() =>editBrand(value)}
                                       className="btn btn-warning">Edit</button></TableCell>
                                 </TableRow>
                              )
@@ -67,4 +63,4 @@ function ListRamTypeComponent({dataRam,setdataRam,ramtype,setRamType}){
      );
 
 }
-export default ListRamTypeComponent;
+export default ListBrandComponent;
