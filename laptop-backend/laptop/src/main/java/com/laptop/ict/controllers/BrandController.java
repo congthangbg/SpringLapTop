@@ -19,27 +19,28 @@ import org.springframework.web.client.ResourceAccessException;
 
 import com.laptop.ict.models.Brand;
 import com.laptop.ict.repositorys.BrandRepository;
+import com.laptop.ict.services.BrandService;
 
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("api/")
 public class BrandController {
 	@Autowired
-	private BrandRepository brandRepository;
+	private BrandRepository brandService;
 	
 	@GetMapping("/brand")
 	public List<Brand> getAll(){
-		return brandRepository.findAll();
+		return brandService.findAll();
 	}
 	//create
 	@PostMapping("/brand")
 	public Brand create(@RequestBody Brand brand) {
-		return brandRepository.save(brand);
+		return brandService.save(brand);
 	}
 	//get Brand by id rest api
 	@GetMapping("/brand/{id}")
 	public ResponseEntity<Brand> getBrandById(@PathVariable Integer id) throws Exception{
-		Brand brand=brandRepository.findById(id).get();
+		Brand brand=brandService.findById(id).get();
 		if(brand == null) {
 			throw new Exception();
 		}else {
@@ -49,21 +50,21 @@ public class BrandController {
 	//update
 	@PutMapping("/brand/{id}")
 	public ResponseEntity<Brand> updateBrand(@PathVariable Integer id,@RequestBody Brand brandDetail) throws Exception{
-		Brand brand=brandRepository.findById(id).get();
+		Brand brand=brandService.findById(id).get();
 		if(brand== null) {
 			throw new Exception();
 		}else {
 			brand.setBrandName(brandDetail.getBrandName());
 
-			return ResponseEntity.ok(brandRepository.save(brand));
+			return ResponseEntity.ok(brandService.save(brand));
 		}
 	}
 	//delete
 	@DeleteMapping("/brand/{id}")
 	public ResponseEntity< Map<String, Boolean>> deleteBrand(@PathVariable Integer id){
-		Brand brand=brandRepository.findById(id)
+		Brand brand=brandService.findById(id)
 				.orElseThrow(()-> new ResourceAccessException("Brand not exist with id : "+ id));
-		brandRepository.delete(brand);
+		brandService.delete(brand);
 		Map<String , Boolean> response=new HashMap<>();
 		response.put("delete", Boolean.TRUE);
 		return ResponseEntity.ok(response);

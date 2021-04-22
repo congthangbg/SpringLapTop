@@ -1,12 +1,20 @@
-import React, { Component } from 'react';
-import { useEffect, useState } from 'react'
-import { TableHead, TableRow, TableCell, TableBody, Button } from '@material-ui/core';
+import React, { useState } from 'react';
+import { useEffect } from 'react'
+
 import ApiCaller from '../AxiosUtils/ApiCaller';
 import CreateProduct from './MainCreateLaptop';
 import TableLaptop from './MainTableLaptop';
-function ListProduct({ data, setData, laptop, setLaptop, item, setItem }) {
+function ListProduct({ data, setData,
+    laptop, setLaptop, item, setItem
+     ,laptopDetail,setLaptopDetail,dataLaptop, setDataLaptop,
+     dataLaptopDetail, setDataLaptopDetail, 
+     brand, setBrand, type, setType
+   }) {
 
 
+      
+
+  
 
    // API
    useEffect(() => {
@@ -14,11 +22,27 @@ function ListProduct({ data, setData, laptop, setLaptop, item, setItem }) {
          const { data } = response
          setLaptop(data)
       })
-   }, [setLaptop, data, item, setItem])
+   }, [])
 
+   useEffect(() => {
+      ApiCaller("brand", "GET", null).then(response => {
+         const { data } = response
+         setBrand(data)
+      })
+   }, [])
+   useEffect(() => {
+      ApiCaller("type", "GET", null).then(response => {
+         const { data } = response
+         setType(data)
+      })
+   }, [])
    const editLaptop = (value) => {
       setData(value)
    }
+
+
+   
+
 
    return (
       <div className="container">
@@ -39,9 +63,14 @@ function ListProduct({ data, setData, laptop, setLaptop, item, setItem }) {
                         <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 
                            <CreateProduct
+                           brand={brand} type={type}
+                            dataLaptopDetail={dataLaptopDetail} setDataLaptopDetail={setDataLaptopDetail}
+                              dataLaptop={dataLaptop} setDataLaptop={setDataLaptop}
                               item={item} setItem={setItem} data={data}
                               setData={setData}
                               laptop={laptop} setLaptop={setLaptop}
+                              laptopDetail={laptopDetail} setLaptopDetail={setLaptopDetail}
+                             
                            />
 
                         </div>
