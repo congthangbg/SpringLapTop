@@ -1,6 +1,7 @@
 package com.laptop.ict.models;
 
 import java.io.Serializable;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,6 +13,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinColumns;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToOne;
@@ -91,10 +93,11 @@ public class LaptopDetail implements Serializable {
 
 	private Set<RAMType> ramtypes = new HashSet<>();
 	
-	@OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "laptopDetail")
-	private Laptop laptop;
-	
+	@ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	@JoinTable(name = "cardtype_laptopdetail", joinColumns = {
+			@JoinColumn(name = "laptopdetail_id") }, inverseJoinColumns = { @JoinColumn(name = "cardtype_id") })
 
+	private Set<RAMType> cardtypes = new HashSet<>();
 
 	public Integer getId() {
 		return id;
@@ -224,4 +227,14 @@ public class LaptopDetail implements Serializable {
 		this.ramtypes = ramtypes;
 	}
 
+	public Set<RAMType> getCardtypes() {
+		return cardtypes;
+	}
+
+	public void setCardtypes(Set<RAMType> cardtypes) {
+		this.cardtypes = cardtypes;
+	}
+
+	
+	
 }
