@@ -56,15 +56,16 @@ public class Laptop implements Serializable {
 	@JoinColumn(name = "type_id", nullable = false) // thông qua khóa ngoại address_id
 	 private Type type;
 
-	@OneToOne()
+	@JsonIgnoreProperties(value = {"applications", "hibernateLazyInitializer"})
+	@OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
 	@JoinColumn(name = "laptopDetail_id")
-	private LaptopDetail laptopDetail;
+    private LaptopDetail laptopDetail;
 
 	public LaptopDetail getLaptopDetail() {
 		return laptopDetail;
 	}
 
-	public void setLaptopDetail(LaptopDetail laptopDetail) {
+	public void setLaptopDetail(LaptopDetail laptopDetail) { 
 		this.laptopDetail = laptopDetail;
 	}
 

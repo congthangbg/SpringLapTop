@@ -235,6 +235,4 @@ public class LaptopDetail implements Serializable {
 		this.cardtypes = cardtypes;
 	}
 
-	
-	
 }

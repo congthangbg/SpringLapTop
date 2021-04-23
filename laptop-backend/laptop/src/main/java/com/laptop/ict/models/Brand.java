@@ -36,13 +36,13 @@ public class Brand implements Serializable {
 	@NotNull
 	private String brandName;
 
+	
 	@OneToMany(mappedBy = "brand",fetch = FetchType.LAZY)
 	@JsonIgnore
 	//@JoinColumn(name = "brand_id")
 	private List<Laptop> laptops = new ArrayList<Laptop>();
 
 	public Brand() {
-		super();
 	}
 
 //	public List<Laptop> getLaptops() {

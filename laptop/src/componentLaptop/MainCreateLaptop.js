@@ -7,13 +7,14 @@ function CreateProduct({ setItem,
 
    const [brand1, setBrand1] = useState({ id: "", brandName: '' })
    const [type1, setType1] = useState({ id: "", typeName: '' })
-   // const [laptopDetail, setLaptopDetail] = useState({id:"",
-   //    cpu: "", rom: "", keyBoard: "", system: "", color: "", connector: "", camera: "",
-   //    audio: "", pin: "", size: "", weight: "", component: "", year: "",screentypes:[],ramtypes:[]
-   // })
-   const [laptopDetail, setLaptopDetail] = useState("")
-   const [dataLaptop, setDataLaptop] = useState({ brand: brand1, image: "", lapTopName: '', price: "", type: type1, laptopDetail: null })
-   let brand2 = null;
+   const [laptopDetail, setLaptopDetail] = useState({
+      id: "",
+      cpu: "", rom: "", keyBoard: "", system: "", color: "", connector: "", camera: "",
+      audio: "", pin: "", size: "", weight: "", component: "", year: "", screentypes: [], ramtypes: []
+   })
+   //const [laptopDetail, setLaptopDetail] = useState("")
+   const [dataLaptop, setDataLaptop] = useState({ brand: brand1, image: "", lapTopName: '', price: "", type: type1, laptopDetail: laptopDetail })
+
 
    const changeCbo = (event) => {
       const value = event.target.value;
@@ -21,7 +22,7 @@ function CreateProduct({ setItem,
       brand.map((val, index) => {
          if (val.id == value) {
             setBrand1(val)
-            brand2 = val;
+
          }
       })
       type.map((val, index) => {
@@ -30,28 +31,39 @@ function CreateProduct({ setItem,
          }
       })
    }
+   
    const onChangHandler = (event) => {
       const name = event.target.name;
       const value = event.target.value
-
       setDataLaptop({
          ...dataLaptop,
          [name]: value,
          brand: brand1,
          type: type1,
-       
+         laptopDetail: laptopDetail
       })
 
    }
+
    const onChangLaptopDetail = (event) => {
       const name = event.target.name;
       const value = event.target.value
+
       setLaptopDetail({
-         
+
          ...laptopDetail,
          [name]: value,
+
+
       })
+
+      setDataLaptop({
+         ...dataLaptop,
+         laptopDetail: laptopDetail
+      })
+
    }
+
 
    const addLaptop = (event) => {
 
