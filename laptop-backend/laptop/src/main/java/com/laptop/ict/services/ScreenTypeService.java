@@ -15,8 +15,6 @@ import com.laptop.ict.repositorys.ScreenTypeRepository;
 
 public interface ScreenTypeService {
 	
-	
-
 	void deleteAll();
 
 	void deleteAll(Iterable<? extends ScreenType> entities);

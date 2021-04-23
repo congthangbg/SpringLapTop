@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 import com.laptop.ict.models.RAMType;
 import com.laptop.ict.repositorys.RAMTypeRepository;
 
-
 @Service
 public class RAMTypeServiceImpl implements RAMTypeService {
 	

@@ -19,6 +19,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.sun.istack.NotNull;
 
 @Entity
@@ -92,8 +93,13 @@ public class LaptopDetail implements Serializable {
 			@JoinColumn(name = "laptopdetail_id") }, inverseJoinColumns = { @JoinColumn(name = "ramtype_id") })
 
 	private Set<RAMType> ramtypes = new HashSet<>();
-
 	
+	@JsonIgnoreProperties(value = {"applications", "hibernateLazyInitializer"})
+	@OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "laptopDetail")
+	private Laptop laptop;
+	
+
+
 	public Integer getId() {
 		return id;
 	}
