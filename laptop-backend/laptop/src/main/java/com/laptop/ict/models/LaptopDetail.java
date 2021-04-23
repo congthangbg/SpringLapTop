@@ -225,5 +225,5 @@ return connector;
 	public void setRamtypes(Set<RAMType> ramtypes) {
 		this.ramtypes = ramtypes;
 	}
-
 }
+
