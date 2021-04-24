@@ -34,23 +34,23 @@ public class CardTypeController {
 //	@Autowired
 //	ComponentBrandService componentBrandService;
 	
-	@PostMapping("/add")
+	@PostMapping("/cardtype")
 	public CardType insert(@RequestBody CardType cardType) {
 		return cardTypeService.insert(cardType);
 	}
 	
-	@GetMapping("/list")
+	@GetMapping("/cardtype")
 	public List<CardType> list (){
 		List<CardType> list = cardTypeService.findAll();
 		return list;
 	}
 	
-	@GetMapping("/get/{id}")
+	@GetMapping("/cardtype/{id}")
 	public Optional<CardType> getid(@PathVariable int id){
 		return cardTypeService.getid(id);
 	}
 	
-	@DeleteMapping("/delete/{id}")
+	@DeleteMapping("/cardtype/{id}")
 	public ResponseEntity<Map<String, Boolean>> delete(@PathVariable int id){
 		CardType cardType = cardTypeService.getid(id)
 				.orElseThrow(() -> new ResourceNotFoundException("card type not exis : " ));
@@ -60,13 +60,12 @@ public class CardTypeController {
 		return ResponseEntity.ok(response);
 	}
 	
-	@PutMapping("/update/{id}")
+	@PutMapping("/cardtype/{id}")
 	public ResponseEntity<CardType> update(@PathVariable int id, @RequestBody CardType cardType){
 		CardType card = cardTypeService.getid(id)
 				.orElseThrow(() -> new ResourceNotFoundException("card not exist"));
 		card.setCardDesign(cardType.getCardDesign());
 		card.setCardType(cardType.getCardType());
-		card.setBrand(cardType.getBrand());
 		
 		CardType updatecard = cardTypeService.insert(card);
 		return ResponseEntity.ok(updatecard);
