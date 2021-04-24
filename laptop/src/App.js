@@ -10,6 +10,7 @@ import ListTypeComponent from './TypeComponent/ListTypeComponent';
 import ListBrandComponent from './BrandComponent/ListBrandComponent';
 import ListScreenTypeComponent from './ScreenTypeComponent/ListScreenTypeComponent';
 import ListRamTypeComponent from './RamTypeComponent/ListRamTypeComponent';
+import ListCardTypeComponent from './CardTypeComponent/ListCardTypeComponent';
 function App() {
       const [item, setItem] = useState(false)
       const [brand, setBrand] = useState("")
@@ -28,6 +29,9 @@ function App() {
         const [dataRam, setdataRam] = useState([{gb: '',ramType:"",speed: ''}])
         const [dataType, setdataType] = useState([{typeName: ''}])
         const [dataBrand, setdataBrand] = useState([{brandName: ''}])
+        const [cardtype, setCardType] = useState([])
+        const [dataCard, setdataCard] = useState([{ cardDesign: '', cardType: ""}])
+
       return (
          <div >
             <Router>
@@ -69,6 +73,10 @@ function App() {
                      <Route path="/brand">
                        <ListBrandComponent brand={brand} setBrand={setBrand} dataBrand={dataBrand} setdataBrand={setdataBrand}  />
                      </Route>
+                     <Route path="/cardtype">
+                           <ListCardTypeComponent cardtype={cardtype} setCardType={setCardType} dataCard={dataCard} setdataCard={setdataCard} />
+                        </Route>
+
                         {/* <Route path="/ramtype">
                            <ListRamTypeComponent ramtype={ramtype} setRamType={setRamType} dataRam={dataRam} setdataRam={setdataRam} />
                         </Route> */}

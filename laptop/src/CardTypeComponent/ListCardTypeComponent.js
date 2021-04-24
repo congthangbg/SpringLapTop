@@ -2,53 +2,56 @@ import React, { Component } from 'react';
 import { useEffect, useState } from 'react';
 import { TableHead, TableRow, TableCell, TableBody, Button } from '@material-ui/core';
 import ApiCaller from '.././AxiosUtils/ApiCaller';
-import CreateTypeComponent from './CreateTypeComponent';
+import CreateCardTypeComponent from './CreateCardTypeComponent';
 
 
-function ListTypeComponent({dataType,setdataType,type,setType}){
+function ListCardTypeComponent({dataCard,setdataCard,cardtype,setCardType}){
 
     const [item, setItem] = useState("")
 
     // API
     useEffect(() => {
-        ApiCaller("type", "GET",null).then(response => {
+        ApiCaller("cardtype", "GET",null).then(response => {
             const  data  = response.data
-            setType(data)
+            setCardType(data)
         })
-    },[dataType])
+    },[dataCard])
 
-    const editType = (value) => {
-      setdataType(value)
+    const editCardType = (value) => {
+      setdataCard(value)
     }
-    console.log(type)
+    console.log(cardtype)
     return (
         <div className="container">
+  
            <section className="section">
-              <h1 className="section-heading">Phân loại Laptop</h1>
-              <CreateTypeComponent
-              item={item} dataType={dataType} setdataType={setdataType}
-              type={type} setType={setType} />
+              <h1 className="section-heading">Loại Card</h1>
+              <CreateCardTypeComponent
+              item={item} dataCard={dataCard} setdataCard={setdataCard}
+              cardtype={cardtype} setCardType={setCardType} />
               <div className="row">
                  <table className="table table-hover ">
                     <TableHead>
                        <TableRow >
                           <TableCell>ID</TableCell>
-                          <TableCell>Tên loại</TableCell>
+                          <TableCell>Thiet ke</TableCell>
+                          <TableCell>Loai card</TableCell>
                           <TableCell></TableCell>
                        </TableRow>
                     </TableHead>
                     <TableBody>
                        {
-                           type? type.map((value, index) => {
+                           cardtype.map((value, index) => {
                              return (
                                 <TableRow key={index} >
                                    <TableCell>{value.id}</TableCell>
-                                   <TableCell>{value.typeName}</TableCell>
-                                   <TableCell><button onClick={() =>editType(value)}
+                                   <TableCell>{value.cardDesign}</TableCell>
+                                   <TableCell>{value.cardType}</TableCell>
+                                   <TableCell><button onClick={() =>editCardType(value)}
                                       className="btn btn-warning">Edit</button></TableCell>
-                                </TableRow> 
+                                </TableRow>
                              )
-                          }) : ""
+                          })
                        }
   
                     </TableBody>
@@ -62,4 +65,4 @@ function ListTypeComponent({dataType,setdataType,type,setType}){
      );
 
 }
-export default ListTypeComponent;
+export default ListCardTypeComponent;

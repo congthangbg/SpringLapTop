@@ -34,9 +34,9 @@ public class CardType implements Serializable {
 	@NotNull
 	private String cardType;
 	
-	@ManyToOne
-	@JoinColumn(name = "brand_id")
-	private ComponentBrand brand;
+//	@ManyToOne
+//	@JoinColumn(name = "brand_id")
+//	private ComponentBrand brand;
 	
 	
 //	@ManyToMany(mappedBy = "cardTypes")
@@ -79,13 +79,13 @@ public class CardType implements Serializable {
 		this.cardType = cardType;
 	}
 
-	public ComponentBrand getBrand() {
-		return brand;
-	}
-
-	public void setBrand(ComponentBrand brand) {
-		this.brand = brand;
-	}
+//	public ComponentBrand getBrand() {
+//		return brand;
+//	}
+//
+//	public void setBrand(ComponentBrand brand) {
+//		this.brand = brand;
+//	}
 
 	
 	

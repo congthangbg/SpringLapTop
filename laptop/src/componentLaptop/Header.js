@@ -48,6 +48,9 @@ function Header() {
             <li className="breadcrumb-item">
               <Link to="/brand">Hãng Laptop</Link>
             </li>
+            <li className="breadcrumb-item">
+              <Link to="/cardtype">Loai Card</Link>
+            </li>
           </ol>
         </div>
         
