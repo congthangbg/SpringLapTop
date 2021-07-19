@@ -15,7 +15,7 @@ function ListScreenTypeComponent({dataScreen,setdataScreen,screentype,setScreenT
             const  data  = response.data
             setScreenType(data)
         })
-    },[dataScreen])
+    },[dataScreen,screentype])
 
     const editScreenType = (value) => {
       setdataScreen(value)

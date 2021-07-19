@@ -15,12 +15,11 @@ function ListTypeComponent({dataType,setdataType,type,setType}){
             const  data  = response.data
             setType(data)
         })
-    },[dataType])
+    },[dataType,type])
 
     const editType = (value) => {
       setdataType(value)
     }
-    console.log(type)
     return (
         <div className="container">
            <section className="section">

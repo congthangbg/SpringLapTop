@@ -11,11 +11,6 @@ function ListProduct({ data, setData,
      brand, setBrand, type, setType
    }) {
 
-
-      
-
-  
-
    // API
    useEffect(() => {
       ApiCaller("laptop", "GET", null).then(response => {

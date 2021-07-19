@@ -22,21 +22,19 @@ function CreateCardTypeComponent({dataCard,setdataCard,cardtype,setCardType}) {
             ...cardtype,
             dataCard
         ]);
-        console.log(cardtype);
         clear();
     }
 
     const updateCardType=(event,id)=>{
         event.preventDefault();
         ApiCaller("cardtype/" + id,"PUT", dataCard).then((response) => {
-            console.log(response.data);
         })
+        setCardType(cardtype)
         clear();
     }
 
     const deleteCardType = (event,id)=>{
         event.preventDefault();
-        console.log(cardtype);
         ApiCaller("cardtype/" + id,"DELETE", dataCard).then((response) => {
 
         })
@@ -49,7 +47,6 @@ function CreateCardTypeComponent({dataCard,setdataCard,cardtype,setCardType}) {
     const clear = () => {
       setdataCard({ id:"",cardDesign:"",cardType:"" });
     }
-    console.log(dataCard);
     return (
         <form className="mt-4" style={{ marginLeft: 150 }}>
            <div className="row mt-2">

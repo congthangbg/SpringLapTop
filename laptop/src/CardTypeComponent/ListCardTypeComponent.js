@@ -15,12 +15,11 @@ function ListCardTypeComponent({dataCard,setdataCard,cardtype,setCardType}){
             const  data  = response.data
             setCardType(data)
         })
-    },[dataCard])
+    },[dataCard,cardtype])
 
     const editCardType = (value) => {
       setdataCard(value)
     }
-    console.log(cardtype)
     return (
         <div className="container">
   

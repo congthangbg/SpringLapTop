@@ -22,34 +22,34 @@ function CreateRamTypeComponent({dataRam,setdataRam,ramtype,setRamType}) {
             ...ramtype,
             dataRam
         ]);
-        console.log(ramtype);
         clear();
     }
 
     const updateRamType=(event,id)=>{
         event.preventDefault();
+        console.log(ramtype);
+        debugger
         ApiCaller("ramtype/" + id,"PUT", dataRam).then((response) => {
-            console.log(response.data);
+
         })
+        setRamType(ramtype)
         clear();
     }
 
     const deleteRamType = (event,id)=>{
         event.preventDefault();
-        console.log(ramtype);
         ApiCaller("ramtype/" + id,"DELETE", dataRam).then((response) => {
 
         })
-
         const itemDelete = ramtype.filter(item => item.id !== id);
         setRamType(itemDelete)
         clear();
     }
-
+   
     const clear = () => {
       setdataRam({ id:"",gb:"",ramType:"",speed:""});
     }
-    console.log(dataRam);
+  
     return (
         <form className="mt-4" style={{ marginLeft: 150 }}>
            <div className="row mt-2">

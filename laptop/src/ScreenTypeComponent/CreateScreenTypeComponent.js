@@ -22,21 +22,18 @@ function CreateScreenTypeComponent({dataScreen,setdataScreen,screentype,setScree
             ...screentype,
             dataScreen
         ]);
-        console.log(screentype);
         clear();
     }
-
     const updateScreenType=(event,id)=>{
         event.preventDefault();
         ApiCaller("screentype/" + id,"PUT", dataScreen).then((response) => {
-            console.log(response.data);
         })
+        setScreenType(screentype)
         clear();
     }
 
     const deleteScreenType = (event,id)=>{
         event.preventDefault();
-        console.log(screentype);
         ApiCaller("screentype/" + id,"DELETE", dataScreen).then((response) => {
 
         })
@@ -49,7 +46,6 @@ function CreateScreenTypeComponent({dataScreen,setdataScreen,screentype,setScree
     const clear = () => {
       setdataScreen({ id:"",size:"",resolution:"",technology:"",induction:"" });
     }
-    console.log(dataScreen);
     return (
         <form className="mt-4" style={{ marginLeft: 150 }}>
            <div className="row mt-2">

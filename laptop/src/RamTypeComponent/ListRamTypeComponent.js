@@ -15,12 +15,12 @@ function ListRamTypeComponent({dataRam,setdataRam,ramtype,setRamType}){
             const  data  = response.data
             setRamType(data)
         })
-    },[dataRam])
+        console.log(dataRam);
+    },[dataRam,ramtype])
 
     const editRamType = (value) => {
       setdataRam(value)
     }
-    console.log(ramtype)
     return (
         <div className="container">
   

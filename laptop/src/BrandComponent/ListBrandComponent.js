@@ -15,7 +15,7 @@ function ListBrandComponent({dataBrand,setdataBrand,brand,setBrand}){
             const  data  = response.data
             setBrand(data)
         })
-    },[dataBrand])
+    },[dataBrand,brand])
 
     const editBrand = (value) => {
       setdataBrand(value)
